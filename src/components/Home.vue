@@ -1,17 +1,17 @@
 <template>
 	<div class="nav">
 		<p>首页内容</p>
-		<nav></nav>
+		
 
 	</div>
 </template>
 
 <script>
-import Nav from '@/components/Nav'
+import Navs from '@/components/Navs'
 export default {
 	name:'nav',
 	components:{
-		Nav
+		Navs
 	}
 }
 </script>

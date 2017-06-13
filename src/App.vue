@@ -1,23 +1,21 @@
 <template>
     <div id="app">
-       
-        <router-view></router-view>
-        <nav></nav>
+        <navs></navs>
         <home></home>
         <foot></foot>
-
+        <router-view></router-view>
     </div>
 </template>
 
 <script>
-import Nav from '@/components/Nav'
-import Foot from '@/components/Foot'
+import Navs from '@/components/Navs'
 import Home from '@/components/Home'
+import Foot from '@/components/Foot'
 
 export default {
     name: 'app',
     components:{
-        Nav,
+        Navs,
         Home,
         Foot
     }
