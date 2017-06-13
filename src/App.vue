@@ -19,7 +19,7 @@ export default {
     components:{
         Headers,
         Foot,
-        Shouye,
+        Shouye
     }
 }
 </script>
