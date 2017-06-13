@@ -1,22 +1,22 @@
 <template>
-	<div class="shouye">
+	<div class="nav">
 		<p>首页内容</p>
-		<header></header>
+		<nav></nav>
 
 	</div>
 </template>
 
 <script>
-import Header from '@/components/common/Header'
+import Nav from '@/components/Nav'
 export default {
-	name:'shouye',
+	name:'nav',
 	components:{
-		Header
+		Nav
 	}
 }
 </script>
 <style>
-.shouye {
+.nav {
 	height: 400px;
 	background: tan;
 }

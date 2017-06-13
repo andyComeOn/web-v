@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import '../../assets/reset.css'
+import '@/assets/reset.css'
 export default {
   
 }

@@ -7,7 +7,7 @@
             </div>
             <ul class="h_rg rg ov">
                 <li>
-                	<router-link to="/shouye">首页</router-link>
+                	<router-link to="/home">首页</router-link>
                 </li>
                 <li>
                 	<router-link to="/bigshot">大咖专区</router-link>
@@ -24,13 +24,14 @@
 </template>
 
 <script>
-import '../../assets/reset.css'
+import '@/assets/reset.css'
 export default {
 
 }
 </script>
 
 <style scoped>
+
 .h {
     height: 100px;
 }

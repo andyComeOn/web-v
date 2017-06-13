@@ -1,25 +1,25 @@
 <template>
     <div id="app">
-        <!--<img src="./assets/logo.png">-->
-        <!--<headers></headers>-->
+       
         <router-view></router-view>
-        <shouye></shouye>
+        <nav></nav>
+        <home></home>
         <foot></foot>
 
     </div>
 </template>
 
 <script>
-import Headers from '@/components/common/Header'
-import Foot from '@/components/common/Foot'
-import Shouye from '@/components/Shouye'
+import Nav from '@/components/Nav'
+import Foot from '@/components/Foot'
+import Home from '@/components/Home'
 
 export default {
     name: 'app',
     components:{
-        Headers,
-        Foot,
-        Shouye
+        Nav,
+        Home,
+        Foot
     }
 }
 </script>
